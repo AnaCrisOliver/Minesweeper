@@ -389,7 +389,7 @@ class CampoMinado extends JFrame implements ActionListener{
                 campoMinado.print();             
 
                 setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                setSize(760,760);
+                setSize(700,700);
                 setResizable(false);  
                 
                 setLayout(new BorderLayout(20,0));              
@@ -401,7 +401,7 @@ class CampoMinado extends JFrame implements ActionListener{
                 
                 JLabel tituloCampo = new JLabel("CAMPO MINADO DO CAGE");
                 tituloCampo.setForeground(new java.awt.Color(255, 255, 255));
-                tituloCampo.setFont(new java.awt.Font("Cabin Sketch", 1, 40));//1-fonte,2-negrito,3-tamanho da fonte
+                tituloCampo.setFont(new java.awt.Font("Cabin Sketch", 1, 20));//1-fonte,2-negrito,3-tamanho da fonte
                 
                 panel2.setLayout(new GridLayout( 2, 3, 5, 5));
                 panel2.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
